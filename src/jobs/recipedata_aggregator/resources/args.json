@@ -1,0 +1,5 @@
+{
+  "input_file_path": "/recipedata_preprocessor/resources/processed_output",
+  "output_file_path": "/recipedata_aggregator/resources/agg_output",
+  "ingredient": "beef"
+}
