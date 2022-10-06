@@ -1,13 +1,13 @@
 # Solution Approach to the requirements
-  Following are the tools/libraries I have used to implement the 
-	pipenv - To set up the dependencies in a isolated virtual environment
-	Makefile - To automate the development steps in Linux/Mac environments
-	pyspark - As per the requirement with python 3.7
-	flake8 - To check the quality of the code (code style)
-	pytest-spark - To implement unit tests for pyspark jobs
-	pytest-cov - To generate a test coverage report to tell if we have enough unit tests
-	pytest-ordering - To control the order of running the test cases (preprocessor first then aggregator)
-	isodate - To parse the duration in PT format
+  Following are the tools/libraries I have used to implement the solution,
+	1) pipenv - To set up the dependencies in a isolated virtual environment
+	2) Makefile - To automate the development steps in Linux/Mac environments
+	3) pyspark - As per the requirement with python 3.7
+	4) flake8 - To check the quality of the code (code style)
+	5) pytest-spark - To implement unit tests for pyspark jobs
+	6) pytest-cov - To generate a test coverage report to tell if we have enough unit tests
+	7) pytest-ordering - To control the order of running the test cases (preprocessor first then aggregator)
+	8) isodate - To parse the duration in PT format
 	
   Also, I have created a generic project structure to run multiple pyspark jobs with logging and configuration enabled for each job.
 	
